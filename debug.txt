@@ -1,0 +1,25 @@
+21:36:45 find_objects_in_file: error opening example: No such file or directory
+21:38:53 Error opening /home/boris/.find_orb/temp_obs.txt: No such file or directory
+21:40:40 You don't currently have JPL planetary ephemerides set up
+for use in Find_Orb.  This will result in some loss of accuracy
+and speed.  See https://www.projectpluto.com/find_orb.htm#de_eph
+for further information.
+
+Hit any key to continue.  Find_Orb will still work,  though it will
+be a little slower and less accurate.  You should eventually download
+a JPL ephemeris file,  per the instructions at the above link.
+21:50:13 You don't currently have JPL planetary ephemerides set up
+for use in Find_Orb.  This will result in some loss of accuracy
+and speed.  See https://www.projectpluto.com/find_orb.htm#de_eph
+for further information.
+
+Hit any key to continue.  Find_Orb will still work,  though it will
+be a little slower and less accurate.  You should eventually download
+a JPL ephemeris file,  per the instructions at the above link.
+16:25:24 Full improvement failure!      Mir    
+16:30:00 Full improvement failure!      Mir    
+16:30:20 Full improvement fail -1
+16:30:25 Full improvement fail -1
+16:30:27 Full improvement fail -1
+16:30:32 Full improvement fail -1
+16:30:36 Full improvement fail -1

@@ -1,0 +1,4 @@
+Q: When running find_orb with the observations of Example1 from file example.txt, it only uses 29 of the 37 observations. Why is that? I would expect it to use all of them.
+A: It also thinks that the last observation has somewhat high residuals, and excludes it.
+
+

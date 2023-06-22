@@ -1,0 +1,21 @@
+{
+  "header": {
+    "name": "J. Doe",
+    "email": "john_doe@example.com",
+    "comment": "Identified as artsat. Default identification comment.  Linkage written 2023 Jun 22 16:30:00 UTC.  Find_Orb version 2023 Jun 08."
+  },
+  "links": {
+    "link_0": {
+      "designations": [
+         "ARTSAT"
+        ],
+      "trksubs": [
+        [
+        "Mir",
+        "1998 06 20.83974",
+        "422"
+        ]
+      ]
+    }
+  }
+}

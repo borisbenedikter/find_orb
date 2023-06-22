@@ -36,3 +36,40 @@ of my other projects :
 At some point,  I'll probably document the build procedure for
 Windows,  but it does appear that most Windows users just want
 pre-built executables.
+
+# Installation instructions
+
+In the following, the installation instructions on a Linux system are given.
+
+## Preliminary steps
+
+Two packages are required to build `find_orb`: `ncurses` and `libcurl`. On a Debian-based system, they can be installed with the following command:
+
+    $ sudo apt install libncurses-dev
+    $ sudo apt install libcurl4-openssl-dev
+
+## Downloading the source code and the dependencies
+
+The source code of `find_orb` and the dependencies should be saved in the same directory, named `<DOWNLOAD_DIR>`. The following commands will download the source code of `find_orb` and the dependencies:
+
+    $ cd <DOWNLOAD_DIR>
+    $ git clone <github-path-to/Bill-Gray/find_orb>
+    $ git clone <github-path-to/Bill-Gray/jpl_eph>
+    $ git clone <github-path-to/Bill-Gray/sat_code>
+    $ git clone <github-path-to/Bill-Gray/lunar>
+    $ git clone <github-path-to/Bill-Gray/miscell>
+
+## Building find_orb and the dependencies
+
+There is a shell script `INSTALL.sh` in the `find_orb` directory that builds `find_orb` and the dependencies. 
+Executing permissions must be given to the script:
+
+    $ cd <DOWNLOAD_DIR>/find_orb
+    $ chmod +x INSTALL.sh
+
+The script can be executed with the following command:
+
+    $ sudo ./INSTALL.sh -d <DOWNLOAD_DIR>
+
+The `-d` option is mandatory and specifies the directory where the dependencies are located. 
+Note that `<DOWNLOAD_DIR>` is `..` (i.e., the parent directory of `find_orb`).
